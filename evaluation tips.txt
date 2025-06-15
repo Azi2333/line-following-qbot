@@ -1,0 +1,3 @@
+Figure 1: The image was captured while attempting to manually drive the robot back to the same starting point. Due to manual operation, some errors were introduced. Both data groups were intended to follow the same path.
+
+Figure 2: At this stage, the robot’s navigation path becomes more stable. It is evident that the robot equipped with the CNN model follows a smoother trajectory, while the robot using the classic path planning method exhibits more oscillations during navigation.
