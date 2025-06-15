@@ -106,8 +106,8 @@ Output:
 | `qbot_platform_functions.py` | Vision and movement logic |
 | `eva.py` | Evaluation plot generation |
 | `observer.py` | Image visualizer |
-| `*.pth` | Trained CNN model |
-| `*.svg` | Evaluation plots |
+| `best_cnn_model_640x480.pth` | Trained CNN model |
+| `evaluation_result_with_label.svg` | Evaluation plots |
 
 ---
 
