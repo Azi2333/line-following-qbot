@@ -35,23 +35,8 @@ Input (1x640x480)
 
 ## 📁 Dataset Structure
 
-Each image is labeled into directional class (e.g. straight, left, right).
+using 7 labels to classify the data as either; no line,. Or line detected which was divided into 6 classification of straight (centred), (slightly to the left), (slightly to the right). Or Right turns (centred), slightly to the left or slightly to the right. 
 
-```text
-dataset_group7/
-├── center/
-│   ├── train/
-│   ├── val/
-│   └── test/
-├── left/
-├── right/
-```
-
-Images are grayscale, resized to 640x480, and collected from real QBot runs.
-
-> Note: Full dataset not included due to size. Please use your own or request sample.
-
----
 
 ## 🏁 Training the Model
 
@@ -109,16 +94,6 @@ Output:
 | `best_cnn_model_640x480.pth` | Trained CNN model |
 | `evaluation_result_with_label.svg` | Evaluation plots |
 
----
-
-## 🧠 What You’ll Learn
-
-- How to train CNNs for image-based classification tasks
-- How to integrate model inference into real-time robotics
-- How to benchmark learning-based methods against control logic
-- How to simulate robots using Quanser’s QLabs API
-
----
 
 ## 📦 Requirements
 
